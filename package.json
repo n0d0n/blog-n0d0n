@@ -3,6 +3,9 @@
   "private": true,
   "description": "n0d0n blog using Gatsby",
   "version": "0.1.0",
+  "engines": {
+    "node": "18.x"
+  },
   "author": "contact@n0d0n.xyz <contact@n0d0n.xyz>",
   "dependencies": {
     "@fontsource/merriweather": "^5.0.8",
