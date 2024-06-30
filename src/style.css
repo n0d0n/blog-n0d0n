@@ -222,7 +222,14 @@ table {
 }
 
 table thead tr th {
+  text-align: left;
   border-bottom: 1px solid var(--color-accent);
+}
+
+table tbody tr td {
+  text-align: left;
+  padding-top: 1rem;
+  padding-right: 1rem;
 }
 
 /* Link */
