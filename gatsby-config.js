@@ -135,7 +135,6 @@ module.exports = {
           head: false,
           respectDNT: true,
           exclude: [],
-          origin: "https://n0d0n.xyz",
           delayOnRouteUpdate: 0,
         },
       },
