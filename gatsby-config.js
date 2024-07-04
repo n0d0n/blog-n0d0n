@@ -122,15 +122,23 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "G-HB5TRQ47KY",
-        head: false,
-        anonymize: false,
-        respectDNT: true,
-        exclude: [],
-        pageTransitionDelay: 0
-      }
-    }
+        trackingIds: [
+          "G-HB5TRQ47KY"
+        ],
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: false,
+          respectDNT: true,
+          exclude: [],
+          origin: "https://n0d0n.xyz",
+          delayOnRouteUpdate: 0,
+        },
+      },
+    },
   ],
 }
